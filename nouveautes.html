@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nouveautés — WhatsReminder</title>
+    <style>
+      :root { color-scheme: light dark; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      body { max-width: 760px; margin: 0 auto; padding: 48px 24px; line-height: 1.65; color: #17231e; background: #f6f9f7; }
+      main { padding: 32px; border: 1px solid #dce5e0; border-radius: 18px; background: #fff; box-shadow: 0 8px 30px rgb(20 50 35 / 8%); }
+      h1 { margin: 0; color: #138660; } h2 { margin: 0; color: #1c4031; font-size: 1.3rem; }
+      p { margin: .45rem 0; } li { margin: .35em 0; } .updated { color: #65736c; font-size: .95rem; }
+      .site-nav { display: flex; justify-content: flex-end; margin-bottom: 1.5rem; font-weight: 650; } .site-nav a { color: #138660; }
+      .intro { margin: 1.25rem 0 2rem; }
+      .timeline { list-style: none; padding: 0 0 0 1.75rem; margin: 0; border-left: 2px solid #b9d8ca; }
+      .release { position: relative; padding: 0 0 2.2rem 1.5rem; }
+      .release:last-child { padding-bottom: 0; }
+      .release::before { content: ""; position: absolute; left: -2.25rem; top: .3rem; width: .9rem; height: .9rem; border: 3px solid #f6f9f7; border-radius: 50%; background: #138660; }
+      .version { display: inline-block; margin-bottom: .3rem; padding: .15rem .6rem; border-radius: 999px; color: #0d6248; background: #dff4ea; font-size: .9rem; font-weight: 750; }
+      .status { margin-left: .4rem; color: #65736c; font-size: .9rem; font-weight: 600; }
+      .release ul { margin: .6rem 0 0; padding-left: 1.2rem; }
+      .details { margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid #dce5e0; }
+      a { color: #0d7354; }
+      @media (prefers-color-scheme: dark) {
+        body { color: #eef7f2; background: #101513; } main { border-color: #2b3731; background: #171d1a; } h1 { color: #20b486; } h2 { color: #cce9dc; }
+        .updated, .status { color: #a9b2ad; } .site-nav a, a { color: #56d6a7; } .timeline { border-color: #3f6c59; }
+        .release::before { border-color: #171d1a; background: #20b486; } .version { color: #8cebc5; background: #123d2f; } .details { border-color: #2b3731; }
+      }
+      @media (max-width: 520px) { body { padding: 20px 14px; } main { padding: 24px 20px; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav class="site-nav" aria-label="Navigation">
+        <a href="index.html">Politique de confidentialité</a>
+      </nav>
+      <h1>Nouveautés de WhatsReminder</h1>
+      <p class="updated">Historique public des versions</p>
+      <p class="intro">Retrouvez ici les évolutions importantes de l’extension. Chaque version publiée est aussi accompagnée de notes détaillées dans le <a href="https://github.com/Djo-bo/WhatsReminder/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer">changelog technique</a>.</p>
+      <ol class="timeline">
+        <li class="release">
+          <span class="version">Version 1.0.6</span><span class="status">À venir</span>
+          <h2>Accédez aux nouveautés depuis l’extension</h2>
+          <ul><li>Le menu Paramètres affiche la version réellement installée.</li><li>Un lien direct permet d’ouvrir cette page pour consulter les nouveautés.</li></ul>
+        </li>
+        <li class="release">
+          <span class="version">Version 1.0.5</span><span class="status">14 septembre 2026</span>
+          <h2>Un retour plus simple et une interface harmonisée</h2>
+          <ul><li>Envoyez votre avis via un formulaire Tally, en français ou en anglais.</li><li>Les fréquences personnalisées ont la même présentation dans l’extension et WhatsApp Web.</li><li>Consultez une page publique qui résume les nouveautés de chaque version.</li></ul>
+        </li>
+        <li class="release">
+          <span class="version">Version 1.0.4</span><span class="status">13 septembre 2026</span>
+          <h2>Des rappels configurables</h2>
+          <ul><li>Choisissez l’heure du rappel quotidien et les priorités à inclure.</li><li>Les réglages de notifications sont directement accessibles depuis les paramètres.</li><li>Le guide interactif présente les notifications, sans les activer automatiquement.</li></ul>
+        </li>
+        <li class="release">
+          <span class="version">Version 1.0.3</span><span class="status">11 septembre 2026</span>
+          <h2>Une interface plus compacte et un guide dans WhatsApp Web</h2>
+          <ul><li>La popup tient désormais dans la hauteur disponible : seuls les suivis défilent.</li><li>Ouvrez ou retrouvez WhatsApp Web depuis l’extension.</li><li>Un guide facultatif aide à créer le premier suivi directement dans WhatsApp Web.</li><li>Le menu rassemble tutoriel, langues et thèmes sans encombrer l’en-tête.</li></ul>
+        </li>
+        <li class="release">
+          <span class="version">Version 1.0.0</span><span class="status">31 août 2026</span>
+          <h2>Première version stable</h2>
+          <ul><li>Créez des suivis locaux pour des conversations individuelles ou de groupe.</li><li>Visualisez les priorités, modifiez les fréquences, mettez un suivi en pause ou supprimez-le.</li><li>Recevez un rappel quotidien local et gardez vos données sur votre navigateur.</li></ul>
+        </li>
+      </ol>
+      <p class="details">Les fonctionnalités à venir peuvent évoluer avant leur publication. Pour une correction ou un détail technique, consultez le changelog lié ci-dessus.</p>
+    </main>
+  </body>
+</html>
