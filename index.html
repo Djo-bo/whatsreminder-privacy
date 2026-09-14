@@ -10,13 +10,18 @@
       main { padding: 32px; border: 1px solid #dce5e0; border-radius: 18px; background: #fff; box-shadow: 0 8px 30px rgb(20 50 35 / 8%); }
       h1 { margin-top: 0; color: #138660; } h2 { margin-top: 2em; color: #1c4031; font-size: 1.2rem; }
       li { margin: .35em 0; } .updated { color: #65736c; font-size: .95rem; }
-      @media (prefers-color-scheme: dark) { body { color: #eef7f2; background: #101513; } main { border-color: #2b3731; background: #171d1a; } h1 { color: #20b486; } h2 { color: #cce9dc; } .updated { color: #a9b2ad; } }
+      .site-nav { display: flex; justify-content: flex-end; margin-bottom: 1.5rem; font-weight: 650; }
+      .site-nav a { color: #138660; }
+      @media (prefers-color-scheme: dark) { body { color: #eef7f2; background: #101513; } main { border-color: #2b3731; background: #171d1a; } h1 { color: #20b486; } h2 { color: #cce9dc; } .updated { color: #a9b2ad; } .site-nav a { color: #20b486; } }
     </style>
   </head>
   <body>
     <main>
+      <nav class="site-nav" aria-label="Navigation">
+        <a href="nouveautes.html">Nouveautés</a>
+      </nav>
       <h1>Politique de confidentialité de WhatsReminder</h1>
-      <p class="updated">Dernière mise à jour : 7 septembre 2026</p>
+      <p class="updated">Dernière mise à jour : 14 septembre 2026</p>
       <p>WhatsReminder est une extension de navigateur qui aide l’utilisateur à suivre localement la fréquence de sa participation dans des conversations sélectionnées sur WhatsApp Web. L’extension fonctionne sans compte utilisateur et sans serveur.</p>
 
       <h2>Données traitées et stockées localement</h2>
@@ -33,7 +38,9 @@
       <p>WhatsReminder ne stocke pas le texte ou les extraits de messages, les médias, les pièces jointes, les transcriptions, l’historique complet des conversations, les numéros de téléphone, les identifiants publicitaires ou des données d’analytics.</p>
 
       <h2>Transmission et partage</h2>
-      <p>Aucune donnée issue de WhatsApp Web n’est transmise, partagée, vendue ou synchronisée par WhatsReminder. L’extension ne fait aucun appel réseau et n’utilise aucune API externe.</p>
+      <p>Aucune donnée issue de WhatsApp Web n’est transmise, partagée, vendue ou synchronisée automatiquement par WhatsReminder. Le moteur de l’extension ne fait aucun appel réseau et n’utilise aucune API externe.</p>
+      <p>Le lien <strong>Donner mon avis</strong> ouvre, uniquement à la demande de l’utilisateur, un formulaire externe hébergé par Tally. L’extension ne préremplit aucune information et ne transmet aucune donnée WhatsApp à ce formulaire. Les textes et l’adresse e-mail facultative que l’utilisateur choisit d’envoyer sont transmis directement à Tally et conservés pour permettre au mainteneur de traiter le retour. Ils sont soumis à la <a href="https://tally.so/help/privacy-policy" target="_blank" rel="noopener noreferrer">politique de confidentialité de Tally</a>.</p>
+      <p>Avant tout envoi, l’utilisateur doit retirer des captures et descriptions les noms, numéros, photos, contenus de message et autres informations permettant d’identifier une personne. Les réponses ne créent pas automatiquement de ticket GitHub; le mainteneur n’y reporte que les informations techniques nécessaires et anonymisées.</p>
 
       <h2>Consentement et utilisation limitée</h2>
       <p>Avant tout examen du contenu visible de WhatsApp Web, WhatsReminder présente une information claire dans son interface et demande l’accord explicite de l’utilisateur. Sans cet accord, le suivi local, les alarmes et les notifications restent inactifs.</p>
